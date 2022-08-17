@@ -48,4 +48,37 @@
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
+}
+
+/*section Hero*/
+.hero {
+  margin: 0 auto;
+  background-color: var(--hero-footer-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url(../images/header.background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header.background.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header.background.jpg);
+  max-width: 1600px;
+  height: 600px;
+}
+
+.container--hero {
+  /* outline: 1px tomato solid;*/
+  text-align: center;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }/*# sourceMappingURL=main.css.map */
