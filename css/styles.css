@@ -239,28 +239,6 @@ body {
   width: 130px;
 }
 
-/*page-header*/
-.page-header {
-  background-color: #fff;
-  border-bottom: 1px solid #ececec;
-}
-
-.menu.list {
-  display: flex;
-}
-
-.list.menu__list {
-  display: flex;
-}
-
-.menu__item {
-  margin-right: 50px;
-}
-
-.menu__item:last-child {
-  margin-right: 0;
-}
-
 /*параметры контейнера*/
 .container {
   width: 1200px;
@@ -283,32 +261,6 @@ body {
 
 .flex-container {
   display: flex;
-}
-
-/*header*/
-.logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-  text-decoration: none;
-  margin-right: 93px;
-}
-
-.logo__studio {
-  color: var(--black-color);
-}
-
-.logo__studio--white {
-  color: var(--white-color);
-}
-
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
 }
 
 /*section Hero*/
