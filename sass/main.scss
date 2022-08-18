@@ -1,9 +1,17 @@
-@import"./utils/vars";
+@import"./base/body";
 @import"./base/reset";
 @import"./layout/header";
 @import"./layout/hero";
+@import"./layout/footer";
+@import"./layout/portfolio";
+@import"./layout/modal_window";
+@import"./layout/advantages";
 @import"./components/container";
 @import"./components/btn";
+@import"./components/list-link";
+@import"./components/section";
+@import"./components/svg";
+@import"./utils/vars";
 
 
 

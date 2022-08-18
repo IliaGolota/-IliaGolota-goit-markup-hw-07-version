@@ -1,0 +1,21 @@
+
+.advantages {
+	padding-top: 94px;
+ }
+ .advantages__flex-item {
+	width: 270px;
+	margin-right: 30px;
+	/* outline: 1px solid black;*/
+ }
+ 
+ .advantages__flex-item:last-child {
+	margin-right: 0px;
+ }
+ 
+ .advantages__description {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+ }
+ 
