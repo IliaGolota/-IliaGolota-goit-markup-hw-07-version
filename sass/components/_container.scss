@@ -1,0 +1,25 @@
+/*параметры контейнера*/
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	/*outline: 1px solid #000;*/
+ }
+ /*флекс контейнер*/
+ .container--flex {
+	margin: 0 auto;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 15px;
+	padding-right: 15px;
+ }
+ 
+ .flex-container {
+	display: flex;
+ }
+ 
+ 

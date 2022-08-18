@@ -1,3 +1,72 @@
+@charset "UTF-8";
+:root {
+  /*основной цвет текста*/
+  --primary-text-color: #757575;
+  /*вторичный цвет текста*/
+  --secondary-text-color: #212121;
+  /*цвет акцента*/
+  --accent-color: #2196f3;
+  /*белый цвет*/
+  --white-color: #fff;
+  /*черный цвет*/
+  --black-color: #000;
+  /*цвет hero-footer */
+  --hero-footer-color: #2f303a;
+  /*тень кнопки в портфолио box-shadow*/
+  --box-shadow-color: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  /*section team background*/
+  --team-color: #f5f4fa;
+  /*цвет текста  кнопки*/
+  --button-text: #fff;
+  /*цвет фона первой кнопик*/
+  --first-button-background: #2196f3;
+  /*цвет ховера первой кнопки*/
+  --first-button-hover-background: #188ce8;
+  /*цвет фона второй кнопки*/
+  --second-button-background: #2196f3;
+  /*цвет текста ховера второй кнопки*/
+  --second-button-hover-text: #212121;
+  /*цвет фона ховера второй кнопки*/
+  --second-button-hover-background: #f5f4fa;
+}
+
+/* Указываем box-sizing */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:hover,
+*:focus {
+  -webkit-transition: width 0.5s, left 0.5s;
+  transition: width 0.5s, left 0.5s;
+}
+
+/* Убираем внутренние отступы */
+ul {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 /*page-header*/
 .page-header {
   background-color: #fff;
@@ -81,4 +150,109 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+}
+
+/*параметры контейнера*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /*outline: 1px solid #000;*/
+}
+
+/*флекс контейнер*/
+.container--flex {
+  margin: 0 auto;
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn__primary {
+  width: 200px;
+  height: 50px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--button-text);
+  background-color: var(--first-button-background);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn__primary:hover,
+.btn__primary:focus {
+  cursor: pointer;
+  color: var(--button-text);
+  background-color: var(--first-button-hover-background);
+}
+
+.portfolio-nav__button {
+  height: 38px;
+  margin-right: 8px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-button-hover-text);
+  background: var(--second-button-hover-background);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-nav__button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-nav__button:hover,
+.portfolio-nav__button:focus {
+  color: var(--button-text);
+  background-color: var(--second-button-background);
+  cursor: pointer;
+  -webkit-box-shadow: var(--box-shadow-color);
+          box-shadow: var(--box-shadow-color);
+}
+
+.portfolio-nav__button--one {
+  width: 73px;
+}
+
+.portfolio-nav__button--two {
+  width: 128px;
+}
+
+.portfolio-nav__button--three {
+  width: 145px;
+}
+
+.portfolio-nav__button--four {
+  width: 103px;
+}
+
+.portfolio-nav__button--five {
+  width: 130px;
 }/*# sourceMappingURL=main.css.map */
