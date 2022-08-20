@@ -24,7 +24,7 @@
  
  .address__link {
 	font-style: normal;
-	font-size: 14px;
+	font-size: $font14;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
@@ -34,7 +34,7 @@
  
  .address__connection {
 	font-style: normal;
-	font-size: 14px;
+	font-size: $font14;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	text-decoration: none;
@@ -63,7 +63,7 @@
  
  .join {
 	font-weight: 700;
-	font-size: 14px;
+	font-size: $font14;
 	line-height: 16px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
@@ -91,7 +91,7 @@
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 16px;
+		font-size: $font16;
 		line-height: 1.25;
 		display: flex;
 		align-items: center;

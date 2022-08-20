@@ -31,7 +31,7 @@
  .menu__link {
 	text-decoration: none;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: $font14;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--secondary-text-color);
@@ -63,7 +63,7 @@
  
  .list-contacts {
 	font-weight: 500;
-	font-size: 14px;
+	font-size: $font14;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	list-style: none;
@@ -95,7 +95,7 @@
  .list-contacts__link {
 	text-decoration: none;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: $font14;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
