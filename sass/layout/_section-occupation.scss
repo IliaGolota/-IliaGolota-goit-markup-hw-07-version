@@ -3,8 +3,13 @@
 .section-occupation {
 	padding-bottom: 94px;
 	/*outline: 1px solid tomato;*/
- }
- .section-occupation__section-title {
+}
+.section-occupation__section-title {
 	margin-bottom: 50px;
 	text-align: center;
- }
+	font-weight: 700;
+	font-size: $font36;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
