@@ -1,13 +1,6 @@
 @import "./base/body";
 @import "./base/reset";
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/footer";
-@import "./layout/portfolio";
-@import "./layout/modal_window";
-@import "./layout/advantages";
-@import "./layout/section-occupation";
-@import "./layout/section-team";
+@import "./utils/variables";
 @import "./components/container";
 @import "./components/btn";
 @import "./components/list-link";
@@ -17,4 +10,11 @@
 @import "./components/text";
 @import "./components/h2";
 @import "./components/logo";
-@import "./utils/variables";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/footer";
+@import "./layout/portfolio";
+@import "./layout/modal_window";
+@import "./layout/advantages";
+@import "./layout/section-occupation";
+@import "./layout/section-team";

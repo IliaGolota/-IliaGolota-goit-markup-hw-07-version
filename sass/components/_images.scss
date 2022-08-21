@@ -1,24 +1,23 @@
-
 /*images*/
 .section-team__img {
 	margin-right: 30px;
 	display: block;
- }
- 
- .section-team__img:last-child {
+}
+
+.section-team__img:last-child {
 	margin-right: 0px;
- }
- 
- .section-occupation__img {
+}
+
+.section-occupation__img {
 	margin-right: 30px;
 	display: block;
- }
- 
- .section-occupation__item-cover {
+}
+
+.section-occupation__item-cover {
 	position: relative;
- }
- 
- .section-occupation__cover {
+}
+
+.section-occupation__cover {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -30,9 +29,9 @@
 	color: #fff;
 	font-weight: 700;
 	font-size: $font14;
-	line-height: 16px;
+	line-height: 1.14;
 	text-align: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	background-color: rgba(47, 48, 58, 0.8);
- }
+}
