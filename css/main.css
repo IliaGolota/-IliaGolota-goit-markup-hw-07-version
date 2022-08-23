@@ -907,7 +907,7 @@ ol {
   /*overflow: hidden;*/
 }
 
-.portfolio-works__element:nth-child(-n+6) {
+.portfolio-works__element:nth-child(-n+3) {
   margin-top: 0;
 }
 
